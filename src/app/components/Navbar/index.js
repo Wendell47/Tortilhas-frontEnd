@@ -1,4 +1,5 @@
 'use client'
+
 import { Container, Menu, DropMenu, Content} from "./styles";
 import logo from '../../assets/logo.svg'
 import Image from "next/image";

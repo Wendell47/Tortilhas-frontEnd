@@ -1,11 +1,11 @@
-'use client'
+
 
 import GlobalStyle from './styles/global'
-import { ThemeProvider } from 'styled-components'
 import {Roboto, Poppins, Caveat} from 'next/font/google'
 import theme from './styles/theme'
 import StyledComponentsRegistry from './lib/registry'
 import Navbar from './components/Navbar'
+import Theme from './styles/themeprovider'
 
 
 
@@ -39,11 +39,11 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body className={`${roboto.variable} ${poppins.variable} ${caveat.variable}`}>
       <StyledComponentsRegistry>
-      <ThemeProvider theme={theme}>
+        <Theme theme={theme}>
           <GlobalStyle/>
             <Navbar/>
              {children}
-          </ThemeProvider>
+             </Theme>
         </StyledComponentsRegistry>
       </body>
     </html>
