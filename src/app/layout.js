@@ -1,4 +1,4 @@
-
+'use client'
 
 import GlobalStyle from './styles/global'
 import { ThemeProvider } from 'styled-components'
