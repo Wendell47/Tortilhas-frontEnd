@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from "./styles";
 import Button from "../button";
 import Image from "next/image";

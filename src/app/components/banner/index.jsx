@@ -1,8 +1,7 @@
-
+'use client'
 
 import {Container, Span} from "./styles";
 import Image from "next/image";
-import bgImage from "../../assets/backgroundImage.jpg"
 import bgImage2 from "../../assets/banner2.webp"
 import img from "../../assets/img1.png"
 import fv from "../../assets/fv.svg"

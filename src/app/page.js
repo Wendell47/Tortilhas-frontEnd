@@ -1,4 +1,5 @@
 'use client'
+
 import { Container, FlexContainer } from './styles/styles'
 import Banner from './components/banner'
 import ContainerContent from './components/ContainerContent'
