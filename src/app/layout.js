@@ -36,10 +36,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <Head>
-        <title>tortilhas sua favorita</title>
-        <meta name="description" content="application of a restaurant"></meta>
-      </Head>
+   
       <body className={`${roboto.variable} ${poppins.variable} ${caveat.variable}`}>
       <StyledComponentsRegistry>
         <Theme theme={theme}>

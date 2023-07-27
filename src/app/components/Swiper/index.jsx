@@ -12,11 +12,12 @@ import { Container } from "./styles";
 
   
 export default function MySwiper ({children, slides,pagination, customNav}) {
-    let MinWidth = window.screen.width;
+    
     
 
   return (
     <Container>
+
       <Swiper
         modules={[Navigation, Autoplay, Pagination]}
         navigation={customNav && {

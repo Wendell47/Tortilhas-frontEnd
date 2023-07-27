@@ -9,9 +9,15 @@ import { SwiperSlide } from "swiper/react"
 import PromotionalCard from './components/promotionalCard'
 import SnackCard from './components/snackCard'
 import {LuChevronLeft, LuChevronRight} from 'react-icons/lu'
+import { useState, useEffect } from 'react'
 
 export default function Home(){
     
+    const [swiper, setSwiper] = useState('')
+
+    useEffect(()=>{
+        MySwiper
+    },[])
     return(
         <Container>
             <ContainerContent>
