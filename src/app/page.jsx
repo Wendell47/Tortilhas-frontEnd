@@ -9,8 +9,9 @@ import { SwiperSlide } from "swiper/react"
 import PromotionalCard from './components/promotionalCard'
 import SnackCard from './components/snackCard'
 import {LuChevronLeft, LuChevronRight} from 'react-icons/lu'
-export default function Home(){
 
+export default function Home(){
+    
     return(
         <Container>
             <ContainerContent>

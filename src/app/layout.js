@@ -1,12 +1,11 @@
 
-
 import GlobalStyle from './styles/global'
 import {Roboto, Poppins, Caveat} from 'next/font/google'
 import theme from './styles/theme'
 import StyledComponentsRegistry from './lib/registry'
 import Navbar from './components/Navbar'
 import Theme from './styles/themeprovider'
-
+import Head from 'next/head'
 
 
 const roboto = Roboto({
@@ -37,6 +36,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
+      <Head>
+        <title>tortilhas sua favorita</title>
+        <meta name="description" content="application of a restaurant"></meta>
+      </Head>
       <body className={`${roboto.variable} ${poppins.variable} ${caveat.variable}`}>
       <StyledComponentsRegistry>
         <Theme theme={theme}>
